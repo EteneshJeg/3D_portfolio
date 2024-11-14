@@ -35,9 +35,7 @@ const About = () => {
         Overview.</h2>
     </motion.div>
     <motion.p variants={fadeIn("","",0.1,1)} className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'>
-      Passionate MERN/Full Stack Web Developer with a flair for crafting elegant and efficient digital experiences.
-
-      With a solid foundation in front-end and back-end technologies, I specialize in developing robust, scalable, and user-friendly web applications. My love for problem-solving and dedication to continuous learning drive me to stay updated with the latest industry trends. Collaborating with cross-functional teams, I thrive in dynamic environments to deliver innovative solutions that leave a lasting impact. Let's collaborate and bring your ideas to life!
+      Hi, I'm Etenesh, a passionate Generative AI Developer and AI enthusiast. I specialize in creating innovative AI solutions and developing full-stack web applications. With a focus on building intuitive user interfaces and incorporating cutting-edge 3D visuals, I strive to bring technology and creativity together. My goal is to leverage my expertise in AI and web development to create impactful solutions that make a difference in the digital world.
     </motion.p>
     <div className='mt-20 flex flex-wrap gap-10'>
       {services.map((service,index) => (

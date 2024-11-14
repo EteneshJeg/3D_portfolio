@@ -22,7 +22,10 @@ import {
   carrent,
   jobit,
   tripguide,
-  threejs
+  threejs,
+  linktech,
+  aipro2,
+  aipro1
 } from "../assets";
 
 export const navLinks = [
@@ -42,21 +45,22 @@ export const navLinks = [
 
 const services = [
   {
+    title: "Generative AI Solutions",
+    icon: creator
+  },
+  {
     title: "Web Developer",
     icon: web
   },
   {
-    title: "React Native Developer",
+    title: "React Developer",
     icon: mobile
   },
   {
     title: "Backend Developer",
     icon: backend
   },
-  {
-    title: "Content Creator",
-    icon: creator
-  }
+  
 ];
 
 const technologies = [
@@ -116,55 +120,55 @@ const technologies = [
 
 const experiences = [
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
+    title: "Full Stack Developer",
+    company_name: "Evangadi Network Team",
     icon: starbucks,
-    iconBg: "#383E56",
-    date: "March 2020 - April 2021",
+    iconBg: "#4A90E2",
+    date: "May 2024 - Sep 2024",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers."
+      "My team and I developed an Electronics Repair platform with integrated RIA (money transfer) functionality.",
+      "Built a user-friendly frontend using React, Vite, HTML, and Tailwind CSS.",
+      "Implemented backend with Node.js, Express, and PostgreSQL for seamless user interaction.",
+      "Enabled device registration and repair service requests for phones, tablets, laptops, and computers.",
+      "Integrated secure RIA payments for a smooth customer experience."
     ]
   },
   {
-    title: "React Native Developer",
-    company_name: "Tesla",
+    title: "Odoo Application Developer Intern",
+    company_name: "Purpose Black Ethiopia",
     icon: tesla,
     iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
+    date: "Jun 2024 - Sep 2024",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers."
+      "Assisted in developing and maintaining Odoo applications to support business processes.",
+      "Collaborated with the team to customize and enhance Odoo modules based on client needs.",
+      "Supported the implementation of new features, workflows, and reports.",
+      "Contributed to optimizing Odoo performance and integrating it with other systems."
     ]
   },
   {
-    title: "Web Developer",
-    company_name: "Shopify",
+    title: "Web Development Instructor",
+    company_name: "Koders Lab",
     icon: shopify,
     iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
+    date: "Nov 2023 - Jan 2024",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers."
+      "Taught web development fundamentals including HTML, CSS, JavaScript.",
+      "Guided students in building full-stack web applications with practical, hands-on exercises.",
+      "Provided mentorship and code reviews, helping students solve problems and improve their coding skills.",
+      "Created course materials, tutorials, and assignments to enhance learning and student engagement."
     ]
   },
   {
-    title: "Full stack Developer",
-    company_name: "Meta",
+    title: "Web Developer Intern",
+    company_name: "Prodigy Info Tech",
     icon: meta,
     iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
+    date: "April 2024 - Jun 2024",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers."
+      "Developed and maintained web applications using modern technologies such as HTML, CSS, JavaScript.",
+      "Participated in code reviews and helped troubleshoot issues in frontend.",
+      "Received certification and Recommendation letter for successful completion of internship and demonstrated strong problem-solving skills."
     ]
   }
 ];
@@ -198,7 +202,7 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "ai project1",
     description:
       "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
     tags: [
@@ -215,11 +219,11 @@ const projects = [
         color: "pink-text-gradient"
       }
     ],
-    image: carrent,
+    image: aipro1,
     source_code_link: "https://github.com/"
   },
   {
-    name: "Job IT",
+    name: "Ai project2",
     description:
       "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
     tags: [
@@ -236,29 +240,92 @@ const projects = [
         color: "pink-text-gradient"
       }
     ],
-    image: jobit,
+    image: aipro2,
     source_code_link: "https://github.com/"
   },
   {
-    name: "Trip Guide",
+    name: "LinkTech Wireless",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "The Electronics Repair Service platform streamlines device repairs with easy online registration and integrated RIA money transfer, delivering a seamless experience for customers and service providers.",
     tags: [
       {
-        name: "nextjs",
+        name: "React Vite",
         color: "blue-text-gradient"
       },
       {
-        name: "supabase",
+        name: "Tailwind CSS,PostgreSQL",
         color: "green-text-gradient"
       },
       {
+        name: "Node.js,Express",
+        color: "pink-text-gradient"
+      }
+    ],
+    image: linktech,
+    source_code_link: "https://https://linktech12.com/"
+  },
+  {
+    name: "Exam Preparation Platform",
+    description:
+      "The Exam Prep Platform is a user-friendly resource with study materials, summaries, practice questions, and quizzes to help students excel in exams.",
+    tags: [
+      {
+        name: "Php",
+        color: "blue-text-gradient"
+      },
+      {
+        name: "Mysql",
+        color: "green-text-gradient"
+      },
+      {
+        name: "javascript",
+        color: "pink-text-gradient"
+      }
+    ],
+    image: carrent,
+    source_code_link: "https://github.com/EteneshJeg/Exam_Preparation"
+  },
+  {
+    name: "Netflix Clone",
+    description:
+      "Explore My Netflix Clone – your go-to destination for endless entertainment. Stream your favorite shows and movies effortlessly. Join us for a seamless viewing experience!",
+    tags: [
+      {
+        name: "html",
+        color: "blue-text-gradient"
+      },
+      {
         name: "css",
+        color: "green-text-gradient"
+      },
+      {
+        name: "javascript",
+        color: "pink-text-gradient"
+      }
+    ],
+    image: jobit,
+    source_code_link: "https://github.com/EteneshJeg/Netflix-Clone"
+  },
+  {
+    name: "Apple Clone",
+    description:
+      "I developed a clone of Apple.com that mirrors the original's sleek design and user-friendly experience. This project demonstrates my web development skills, attention to detail, and commitment to brand aesthetics.",
+    tags: [
+      {
+        name: "html",
+        color: "blue-text-gradient"
+      },
+      {
+        name: "css",
+        color: "green-text-gradient"
+      },
+      {
+        name: "javascript",
         color: "pink-text-gradient"
       }
     ],
     image: tripguide,
-    source_code_link: "https://github.com/"
+    source_code_link: "https://github.com/EteneshJeg/Apple-with-Api"
   }
 ];
 

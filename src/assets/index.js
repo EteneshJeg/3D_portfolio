@@ -1,4 +1,4 @@
-import logo from "./logo2-removebg-preview.png";
+import logo from "./e__4_-removebg-preview.png";
 import backend from "./backend.png";
 import creator from "./creator.png";
 import mobile from "./mobile.png";
@@ -8,29 +8,35 @@ import menu from "./menu.svg";
 import close from "./close.svg";
 
 import css from "./tech/css.png";
-import docker from "./tech/docker.png";
-import figma from "./tech/figma.png";
+import docker from "./tech/rag.png";
+import figma from "./tech/langchain.jfif";
 import git from "./tech/git.png";
 import html from "./tech/html.png";
 import javascript from "./tech/javascript.png";
-import mongodb from "./tech/mongodb.png";
+import mongodb from "./tech/postgre.jfif";
 import nodejs from "./tech/nodejs.png";
 import reactjs from "./tech/reactjs.png";
-import redux from "./tech/redux.png";
+import redux from "./tech/php.jfif";
 import tailwind from "./tech/tailwind.png";
-import typescript from "./tech/typescript.png";
+import typescript from "./tech/genai.jfif";
 import threejs from "./tech/threejs.svg";
 
-import meta from "./company/meta.png";
-import shopify from "./company/shopify.png";
-import starbucks from "./company/starbucks.png";
-import tesla from "./company/tesla.png";
+import meta from "./company/Web developer.png";
+import shopify from "./company/Web developer (1).png";
+import starbucks from "./company/Web developer.png";
+import tesla from "./company/odoo.png";
 
-import carrent from "./carrent.png";
-import jobit from "./jobit.png";
-import tripguide from "./tripguide.png";
+import aipro1 from "./about33.jpg";
+import aipro2 from "./carrent.png";
+import linktech from "./about66.jpg";
+import carrent from "./examprep.avif";
+import jobit from "./netflix-app-development.webp";
+import tripguide from "./apple.webp";
 
 export {
+  linktech,
+  aipro1,
+  aipro2,
   logo,
   backend,
   creator,
