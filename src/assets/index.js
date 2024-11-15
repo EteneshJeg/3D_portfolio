@@ -26,8 +26,8 @@ import shopify from "./company/Web developer (1).png";
 import starbucks from "./company/Web developer.png";
 import tesla from "./company/odoo.png";
 
-import aipro1 from "./about33.jpg";
-import aipro2 from "./carrent.png";
+import aipro1 from "./qasystem.png";
+import aipro2 from "./poem.png";
 import linktech from "./about66.jpg";
 import carrent from "./examprep.avif";
 import jobit from "./netflix-app-development.webp";

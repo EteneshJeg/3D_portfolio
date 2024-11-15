@@ -176,72 +176,73 @@ const experiences = [
 const testimonials = [
   {
     testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-    name: "Sara Lee",
-    designation: "CFO",
-    company: "Acme Co",
-    image: "https://randomuser.me/api/portraits/women/4.jpg"
+      "Her passion for technology and attention to detail make her a standout in any project.",
+    name: "Adugna Bekele",
+    designation: "CEO",
+    company: "Evangadi Networks",
+    image: "../assets/Screenshot (286).png"
   },
   {
     testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
-    name: "Chris Brown",
-    designation: "COO",
-    company: "DEF Corp",
-    image: "https://randomuser.me/api/portraits/men/5.jpg"
+      "Etenesh consistently delivers high-quality work, making her an invaluable asset to any team.",
+    name: "Ashenafi",
+    designation: "CEO",
+    company: "Purpose Black Ethiopia",
+    image: ""
   },
   {
     testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: "Lisa Wang",
-    designation: "CTO",
-    company: "456 Enterprises",
-    image: "https://randomuser.me/api/portraits/women/6.jpg"
+      "Etenesh is incredibly talented and always up for a challenge.",
+    name: "Samrawit Amare",
+    designation: "Backend developer",
+    company: "Perago Info Tech",
+    image: ""
   }
 ];
 
 const projects = [
   {
-    name: "ai project1",
+    name: "Information Retrieval/ Q&A System",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "Leveraging LlamaIndex and Google Gemini, this system allows you to upload a file, ask any question, and get instant, accurate answers. Plus, it can summarize the content.",
     tags: [
       {
-        name: "react",
+        name: "LlamaIndex",
         color: "blue-text-gradient"
       },
       {
-        name: "mongodb",
+        name: "Google Gemini",
         color: "green-text-gradient"
       },
       {
-        name: "tailwind",
+        name: "VectorStoreIndex",
         color: "pink-text-gradient"
       }
     ],
     image: aipro1,
-    source_code_link: "https://github.com/"
+    source_code_link: "https://github.com/EteneshJeg/Q-ASystem"
   },
   {
-    name: "Ai project2",
+    name: "Essay & Poem Writer",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "A chatbot that generates essays and poems based on user-provided topics, powered by Langchain and LLAMA2. The app leverages Langchain for prompt management and LLAMA2 for high-quality content generation.",
     tags: [
       {
-        name: "react",
+        name: "Langchain",
         color: "blue-text-gradient"
       },
       {
-        name: "restapi",
+        name: "LLAMA2",
         color: "green-text-gradient"
       },
       {
-        name: "scss",
+        name: "langchainembbeding",
         color: "pink-text-gradient"
       }
     ],
     image: aipro2,
-    source_code_link: "https://github.com/"
+    source_code_link:
+      "https://github.com/EteneshJeg/SecLangchianChatbot/tree/main/api"
   },
   {
     name: "LinkTech Wireless",
