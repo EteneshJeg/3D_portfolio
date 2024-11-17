@@ -1,15 +1,19 @@
-import { defineConfig } from 'vite'
-import react from '@vitejs/plugin-react-swc'
+import { defineConfig } from "vite";
+import react from "@vitejs/plugin-react-swc";
 
-// https://vite.dev/config/
 export default defineConfig({
   plugins: [react()],
   optimizeDeps: {
-    include: ['three'],
+    include: ["three"] // Ensure 'three' is included during development
   },
   build: {
     rollupOptions: {
-      external: ['three'],
-    },
-  },
+      external: ["three"], // Mark 'three' as an external dependency
+      output: {
+        globals: {
+          three: "THREE" // Ensure global resolution
+        }
+      }
+    }
+  }
 });
