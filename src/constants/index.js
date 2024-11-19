@@ -180,7 +180,7 @@ const testimonials = [
     name: "Adugna Bekele",
     designation: "CEO",
     company: "Evangadi Networks",
-    image: "../assets/Screenshot (286).png"
+    image: ""
   },
   {
     testimonial:
